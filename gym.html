@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARYAN FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="aryan_web.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .left img {
+        width: 90px;
+        filter: invert(100%)
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 40px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 16px;
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: rgb(7 201 221);
+        text-decoration: none;
+        padding: 15px 14px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline rgb(7 201 221);
+        color: aqua;
+    }
+
+    .navbar li a.active {
+        text-decoration: dotted solid red;
+
+    }
+
+    .btn {
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid white;
+        border-radius: 9px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .cnt {
+        border: 3px solid white;
+        margin: 87px 56px;
+        padding: 12px 97px;
+        width: 20%;
+        border-radius: 20px;
+
+    }
+    
+    .form-group input {
+        text-align: center;
+        display: block;
+        padding: 1px;
+        width: 300px;
+        border: 6px aqua;
+        border-radius: 8px;
+        margin: 11px auto;
+        font-size: 20px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+    .cnt h1{
+         text-align: center;
+    }
+    .cnt button{
+        text-align: center;
+        display: block;
+        margin: 4px 74px;
+        width: 58%;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/download.png" alt="">
+            <div>Aryan Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Centre</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="cnt">
+            <h2>
+                Join the best gym in Chandigarh now.
+                <form action="noaction.php">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Gender">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Locality">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Email ID">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter Your Contact Number">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </h2>
+        </div>
+    </header>
+
+
+</body>
+
+</html>
